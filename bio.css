@@ -33,3 +33,19 @@
     background-color: #4CAF50;
     color: white;
 }
+
+/*information*/
+.h1 {
+    display: inline-block;
+    border: dashed green 3px;    
+    background: grey;
+    border-radius: 6px;
+    padding: 2px;
+    margin: 2px;
+  }
+
+.intro-image {
+    display: inline-flex;
+  height: 200px;
+  border: solid green 2px;
+}
