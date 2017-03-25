@@ -35,17 +35,19 @@
 }
 
 /*information*/
-.h1 {
-    display: inline-block;
-    border: dashed green 3px;    
+h1 {
+    display;
+    border: solid maroon 3px;    
     background: grey;
-    border-radius: 6px;
+    border-radius: 10px;
     padding: 2px;
     margin: 2px;
   }
 
 .intro-image {
-    display: inline-flex;
-  height: 200px;
-  border: solid green 2px;
+    display: inline-block;
+    height: 200px;
+    border: solid #333 3px;
+    box-shadow: 5px;
+    border-radius: 100px
 }
