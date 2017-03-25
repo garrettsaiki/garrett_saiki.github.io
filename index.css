@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+  color: #ccc;
+  line-height: 3em;
+}
+
+h1, p {
+  padding: 0 3%;
+  margin: 1.5% 0;
+  word-wrap: break-word;
+}
+
+/* Header */
+
+h1 {
+  font-size: 2.7em;
+  letter-spacing: 0.18em;
+}
+
+#heading {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/*slogan or quick bit*/
+p {
+  font-size: 1.5em;
+  letter-spacing: 0.1em;
+  line-height: 1.4em;
+}
+
+
+/*Media Inquiries for different screen sizes, found on CSS style guide*/
+@media only screen and (max-width: 700px) {
+  h1, p {
+    margin: 2% 0;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  h1, p {
+    margin: 2.5% 0;
+  }
+}
+
+@media only screen and (max-width: 510px) {
+  h1, p {
+    margin: 3.25% 0;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  h1, p {
+    margin: 4.5% 0;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  h1, p {
+    margin: 5.5% 0;
+  }
+}
+
+@media only screen and (max-width: 280px) {
+  h1, p {
+    margin: 6.5% 0;
+  }
+}
+
+/* Video */
+
+#video {
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+#video video {
+  top: 0;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  background-size: cover;
+  transform: translate(-50%);
+  z-index: -1;
+}
+
+#overlay2 {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,0.5);
+  position: absolute;
+    margin-top: 0;
+}
+
+/*navbar header stuff*/
+nav {
+    display: inline-block;
+    margin-bottom: 0;
+    position: relative;
+    list-style: none;
+    background-color: #333;
+    overflow: hidden;
+    width:100%;
+}
